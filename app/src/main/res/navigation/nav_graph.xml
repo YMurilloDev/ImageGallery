@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/imageGalleryFragment">
+
+    <fragment
+        android:id="@+id/imageGalleryFragment"
+        android:name="com.imagegallery.views.ImageGalleryFragment"
+        android:label="Image Gallery Fragment"
+        tools:layout="@layout/fragment_image_gallery">
+        <action
+            android:id="@+id/action_imageGalleryFragment_to_imageFullSizeFragment"
+            app:destination="@id/imageFullScreenFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/imageFullScreenFragment"
+        android:name="com.imagegallery.views.ImageFullScreenFragment"
+        android:label="Image Full Screen Fragment"
+        tools:layout="@layout/fragment_image_full_screen">
+        <argument
+            android:name="imageId"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_imageFullScreenFragment_to_imageDetailFragment"
+            app:destination="@id/imageDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/imageDetailFragment"
+        android:name="com.imagegallery.views.ImageDetailFragment"
+        android:label="Image Full Screen Fragment"
+        tools:layout="@layout/fragment_image_detail">
+        <argument
+            android:name="imageId"
+            app:argType="string" />
+    </fragment>
+</navigation>

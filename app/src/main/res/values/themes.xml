@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ImageGallery" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowBackground">@color/cardview_dark_background</item>
+        <item name="android:colorPrimary">@color/black</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="buttonStyle">@style/Widget.Dflabs.Button</item>
+        <item name="android:navigationBarColor">@color/black</item>
+    </style>
+
+    <style name="Theme.ImageGallery" parent="Base.Theme.ImageGallery" />
+</resources>

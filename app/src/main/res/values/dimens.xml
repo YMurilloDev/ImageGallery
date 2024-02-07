@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_container">16dp</dimen>
+    <dimen name="space_1x">4dp</dimen>
+    <dimen name="space_2x">8dp</dimen>
+    <dimen name="space_3x">12dp</dimen>
+    <dimen name="space_4x">16dp</dimen>
+    <dimen name="space_5x">20dp</dimen>
+    <dimen name="space_6x">24dp</dimen>
+    <dimen name="space_7x">28dp</dimen>
+    <dimen name="space_8x">32dp</dimen>
+    <dimen name="space_9x">36dp</dimen>
+    <dimen name="space_10x">40dp</dimen>
+    <dimen name="space_12x">48dp</dimen>
+
+    <dimen name="radius_xs">4dp</dimen>
+    <dimen name="radius_s">8dp</dimen>
+    <dimen name="radius_m">12dp</dimen>
+    <dimen name="radius_l">16dp</dimen>
+    <dimen name="radius_xl">24dp</dimen>
+
+    <dimen name="icon_size_xxxs">6dp</dimen>
+    <dimen name="icon_size_xxs">8dp</dimen>
+    <dimen name="icon_size_xs">12dp</dimen>
+    <dimen name="icon_size_s">16dp</dimen>
+    <dimen name="icon_size_m">20dp</dimen>
+    <dimen name="icon_size_l">24dp</dimen>
+    <dimen name="icon_size_xl">32dp</dimen>
+    <dimen name="icon_size_x_l">40dp</dimen>
+    <dimen name="icon_size_xxl">44dp</dimen>
+
+    <dimen name="avatar_size_tiny">20dp</dimen>
+    <dimen name="avatar_size_small">48dp</dimen>
+    <dimen name="avatar_size">80dp</dimen>
+
+    <dimen name="button_min_size">48dp</dimen>
+    <dimen name="button_size">150dp</dimen>
+    <dimen name="tab_min_width">48dp</dimen>
+    <dimen name="form_padding_bottom">24dp</dimen>
+
+    <dimen name="image_size">30dp</dimen>
+</resources>

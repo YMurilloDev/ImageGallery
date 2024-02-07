@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ImageGallery</string>
+    <string name="imageContentDescription">RecyclerView Image</string>
+    <string name="feat_main_empty_list">There are no images in your gallery</string>
+    <string name="feat_main_button_add">Add Images</string>
+    <string name="feat_main_button_delete">Delete Images</string>
+    <string name="back_button_description">Back Icon</string>
+    <string name="feat_main_local_route">Local path:</string>
+    <string name="feat_main_date">Date and time of addition:</string>
+    <string name="feat_main_size">Size:</string>
+    <string name="feat_main_menu_details">Settings</string>
+</resources>
